@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "productName": "Rolety Materiałowe",
+    "description": "Odkryj nasze eleganckie rolety materiałowe, które łączą w sobie wyjątkowy design i praktyczność zaciemnienia wnętrz. Łatwe w montażu i obsłudze, oferują szeroką gamę kolorów i wzorów, idealnie dopasowując się do każdego stylu. Posiadamy rolety materiałowe przeznaczone dla okien standardowych, dachowych oraz drzwi balkonowych, zapewniające doskonałą izolację termiczną i akustyczną. Nasze usługi obejmują pomiary, doradztwo, montaż i serwisowanie. Z roletami materiałowymi od nas, będziesz mógł cieszyć się spokojem i relaksem we własnym domu.",
+    "imgSrc": "./images/ourProducts/desktop/roletki.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "Plisy",
+    "description": "Zapewnij swojemu wnętrzu elegancję i komfort dzięki naszym plisom okiennym. Pozwalają one regulować ilość wpadającego światła, a jednocześnie zaciemniają pomieszczenie. Dostępne w różnorodnych kolorach i wzorach, są łatwe w montażu i obsłudze. Oferujemy plisy okienne dla okien standardowych, dachowych oraz drzwi balkonowych, zapewniając doskonałą izolację termiczną i akustyczną. Nasz pełen zakres usług obejmuje pomiary, doradztwo, montaż i serwisowanie. Wybierając nasze plisy okienne, stworzysz idealne warunki do wypoczynku i relaksu we własnym domu.",
+    "imgSrc": "./images/ourProducts/desktop/plisy.jpg"
+  },
+  {
+    "id": 3,
+    "productName": "Bramy Garażowe",
+    "description": "Wybierz nasze bramy garażowe, aby zapewnić swojemu domowi bezpieczeństwo i funkcjonalność. Oferujemy szeroki wybór rodzajów bram, takich jak uchylne, segmentowe, rolowane, skrzydłowe i automatyczne, dostępne w atrakcyjnych kolorach i wzorach. Wykonane z wysokiej jakości materiałów, nasze bramy garażowe gwarantują trwałość oraz ochronę Twojego samochodu i innych wartościowych przedmiotów przechowywanych w garażu. Nasze kompleksowe usługi obejmują pomiary, doradztwo, montaż i serwisowanie. Z naszymi bramami garażowymi, możesz być pewien, że Twój samochód jest zabezpieczony i chroniony.",
+    "imgSrc": "./images/ourProducts/desktop/bramy.jpg"
+  },
+  {
+    "id": 4,
+    "productName": "Rolety Zewnętrzne",
+    "description": "Ochrona prywatności, zaciemnienie i redukcja hałasu – to tylko niektóre korzyści płynące z zastosowania naszych rolet zewnętrznych. Dostępne w różnych kolorach i wzorach, są łatwe w montażu i obsłudze. Wykonane z trwałych materiałów, nasze rolety zewnętrzne gwarantują bezpieczeństwo Twojego domu oraz ochronę przed włamaniem. Dodatkowo, blokują szkodliwe promienie UV, chroniąc meble i dekoracje przed blaknięciem. Oferujemy pełen zakres usług, od pomiaru i doradztwa, po montaż i serwisowanie. Nasze rolety zewnętrzne to doskonały wybór dla tych, którzy cenią sobie wygodę i bezpieczeństwo we własnym domu.",
+    "imgSrc": "./images/ourProducts/desktop/rolety.jpg"
+  },
+  {
+    "id": 5,
+    "productName": "Żaluzje",
+    "description": "Nasze żaluzje łączą styl i funkcjonalność, aby doskonale wpasować się w Twoje wnętrza. Posiadamy bogaty wybór żaluzji drewnianych, aluminiowych, plisowanych i vertikalnych, dostępnych w różnych kolorach i wzorach. Drewniane żaluzje zachwycają elegancją i naturalnym charakterem, aluminiowe są trwałe i odporne na uszkodzenia, a plisowane i vertikalne pozwalają regulować ilość światła oraz zapewniają prywatność. Nasz pełen zakres usług obejmuje pomiary, doradztwo, montaż i serwisowanie. Wybierając nasze żaluzje, wprowadzisz do swojego domu elegancję i funkcjonalność na najwyższym poziomie.",
+    "imgSrc": "./images/ourProducts/desktop/zaluzje.jpg"
+  },
+  {
+    "id": 6,
+    "productName": "Markizy",
+    "description": "Nasze markizy to doskonałe rozwiązanie dla Twojego domu, chroniąc przed słońcem i deszczem, a jednocześnie nadając stylowego wykończenia elewacji. Dostępne w różnych kolorach i wzorach, są łatwe w montażu i obsłudze. Oferujemy markizy wykonane z wysokiej jakości materiałów, gwarantujące trwałość i odporność na uszkodzenia. Ponadto, nasze produkty są odporne na promienie UV, co chroni przed blaknięciem kolorów. Zapewniamy kompleksowy zakres usług - od pomiaru, przez doradztwo, aż po montaż i serwisowanie. Z naszymi markizami stworzysz przytulną przestrzeń do wypoczynku i relaksu w swoim ogrodzie czy na tarasie.",
+    "imgSrc": "./images/ourProducts/desktop/markizy.jpg"
+  },
+  {
+    "id": 7,
+    "productName": "Moskitiery",
+    "description": "Zabezpiecz swój dom przed insektami i ciesz się komfortem podczas letnich wieczorów dzięki naszym moskitierom. Dostępne w różnych kolorach i wzorach, są łatwe w montażu i obsłudze. Oferujemy moskitiery do okien, drzwi i balkonów, skutecznie chroniące przed insektami i innymi szkodnikami. Wykonane z wysokiej jakości materiałów, nasze moskitiery gwarantują trwałość i odporność na uszkodzenia. Nasze kompleksowe usługi obejmują pomiary, doradztwo, montaż i serwisowanie. Wybierając nasze moskitiery, zapewnisz sobie spokojne i przyjemne letnie dni oraz wieczory, bez uciążliwych owadów.",
+    "imgSrc": "./images/ourProducts/desktop/moskitiery.jpg"
+  }
+]

@@ -1,0 +1,21 @@
+.button {
+  width: 200px;
+  background-color: var(--contrastColor);
+  border-radius: 5px;
+  border: none;
+
+  padding: 1rem 1rem;
+
+  font-weight: 700;
+  font-size: 1rem;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-block: 1.1rem;
+
+  width: 100%;
+}
+
+.button:hover {
+  background-color: var(--secondaryColor);
+}

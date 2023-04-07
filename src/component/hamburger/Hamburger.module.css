@@ -1,0 +1,49 @@
+.menuButton {
+  position: relative;
+  width: 32px;
+  height: 50px;
+  z-index: 11;
+}
+.bar {
+  transition: all 250ms ease 0ms;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  min-width: 15px;
+  height: 2px;
+  margin-left: -15px;
+  background-color: var(--primaryColor);
+}
+.menuButton .bar:first-child {
+  margin-top: -10px;
+}
+.menuButton .bar:nth-child(2) {
+  margin-top: -2px;
+}
+.menuButton .bar:last-child {
+  margin-top: 6px;
+}
+
+.menuButton.active .bar:first-child {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2px;
+  background-color: var(--secondaryColor);
+}
+
+.menuButton.active .bar:nth-child(2) {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2px;
+  background-color: var(--secondaryColor);
+}
+
+.menuButton.active .bar:last-child {
+  opacity: 0;
+}

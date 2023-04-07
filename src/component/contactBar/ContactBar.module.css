@@ -1,0 +1,19 @@
+.container {
+  background-color: var(--additionalColor);
+}
+.wrapper {
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 1.2em;
+  color: #fff;
+}
+.link {
+  padding: 1em 1.2em;
+  text-align: center;
+}
+.link a {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 500;
+}

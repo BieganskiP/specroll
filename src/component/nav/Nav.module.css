@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.link {
+  color: var(--primaryColor);
+
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 1.2em;
+}
+
+.link:hover {
+  color: var(--secondaryColor);
+}
+
+.active {
+  color: var(--secondaryColor);
+}

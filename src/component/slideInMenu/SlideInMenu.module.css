@@ -1,0 +1,47 @@
+.menu {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 0%;
+
+  transition: all 250ms ease 0ms;
+  transform: translateY(100%);
+
+  visibility: hidden;
+  opacity: 0;
+
+  background-color: var(--primaryColor);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.open {
+  transform: translateY(0);
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.link {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.link a {
+  padding: 1.2em;
+  display: block;
+}
+.active {
+  color: var(--secondaryColor);
+}

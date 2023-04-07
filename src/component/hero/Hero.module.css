@@ -1,0 +1,35 @@
+.wrapper {
+  background-image: linear-gradient(to bottom, #bddafd85, #12294dba),
+    url(../../images/background/zaluzje-47.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 89dvh;
+}
+.container {
+  height: 100%;
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 1.2em;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  color: #fff;
+}
+.text {
+  margin-top: 1em;
+  color: var(--contrastColor);
+}
+.header {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.subHeader {
+  font-size: 1.3em;
+}
+.text {
+  font-size: 1.2em;
+  text-align: center;
+  max-width: 27ch;
+}

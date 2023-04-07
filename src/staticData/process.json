@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "header": "Pomiar",
+    "description": "Dokładne pomiary okien, dopasowanie produktów i materiałów.",
+    "src": "./images/icons/measurment.svg"
+  },
+  {
+    "id": 2,
+    "header": "Wycena",
+    "description": "Dokładna wycena i sprawna realizacja zamówienia.",
+    "src": "./images/icons/contract.svg"
+  },
+  {
+    "id": 3,
+    "header": "Montaż",
+    "description": "Profesjonalny montaż, szybkość i sprawność w realizacji.",
+    "src": "./images/icons/installation.svg"
+  }
+]

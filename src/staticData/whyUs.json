@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Komfort życia",
+    "description": "Czy hałas na zewnątrz przeszkadza Ci w codziennym funkcjonowaniu? A może poranne słońce razi Cię po oczach? Nasze rozwiązania pomogą Ci stworzyć spokojną i komfortową przestrzeń do życia."
+  },
+  {
+    "id": 2,
+    "title": "Bezpieczeństwo i spokój ducha",
+    "description": "Planujesz wakacje, ale martwisz się o pozostawienie domu bez nadzoru? Chcesz zabezpieczyć swój biznes przed włamaniem? Nasze produkty zapewniają dodatkowe zabezpieczenie, dając Ci spokój ducha."
+  },
+  {
+    "id": 3,
+    "title": "Prywatność i intymność",
+    "description": "Denerwują Cię wścibscy sąsiedzi? Cenisz sobie swoją prywatność i chcesz swobodnie korzystać z przestrzeni swojego domu? Wybierz nasze produkty, które gwarantują prywatność i kontrolę nad otoczeniem."
+  }
+]

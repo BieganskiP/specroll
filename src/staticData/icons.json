@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Circle Left",
+    "url": "./images/icons/circle-left.svg"
+  },
+  {
+    "name": "Circle Right",
+    "url": "./images/icons/circle-right.svg"
+  },
+  {
+    "name": "Cross",
+    "url": "./images/icons/cross.svg"
+  },
+  {
+    "name": "Facebook",
+    "url": "./images/icons/facebook.svg"
+  },
+  {
+    "name": "Home",
+    "url": "./images/icons/home.svg"
+  },
+  {
+    "name": "icons",
+    "url": "./images/icons/icons.svg"
+  },
+  {
+    "name": "Circle Left",
+    "url": "./images/icons/instagram.svg"
+  },
+  {
+    "name": "Circle Left",
+    "url": "./images/icons/menu.svg"
+  }
+]

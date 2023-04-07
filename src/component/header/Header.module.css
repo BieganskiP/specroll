@@ -1,0 +1,23 @@
+.wrapper {
+  background-color: #fff;
+  padding: 1.2em;
+
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  transition: all ease-in 200ms;
+}
+.scrolled {
+  padding-block: 0.5em;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sideContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
