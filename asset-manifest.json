@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/specroll/static/css/main.6def87a0.css",
+    "main.js": "/specroll/static/js/main.c1c9d2b7.js",
+    "static/css/931.9a9c730b.chunk.css": "/specroll/static/css/931.9a9c730b.chunk.css",
+    "static/js/931.1ce514bd.chunk.js": "/specroll/static/js/931.1ce514bd.chunk.js",
+    "static/js/903.20953afa.chunk.js": "/specroll/static/js/903.20953afa.chunk.js",
+    "static/js/309.4d2c3804.chunk.js": "/specroll/static/js/309.4d2c3804.chunk.js",
+    "static/js/667.e3f3595a.chunk.js": "/specroll/static/js/667.e3f3595a.chunk.js",
+    "static/js/57.e6012b0e.chunk.js": "/specroll/static/js/57.e6012b0e.chunk.js",
+    "static/media/zaluzje-47.webp": "/specroll/static/media/zaluzje-47.d7d2a06e339955c29c57.webp",
+    "index.html": "/specroll/index.html",
+    "main.6def87a0.css.map": "/specroll/static/css/main.6def87a0.css.map",
+    "main.c1c9d2b7.js.map": "/specroll/static/js/main.c1c9d2b7.js.map",
+    "931.9a9c730b.chunk.css.map": "/specroll/static/css/931.9a9c730b.chunk.css.map",
+    "931.1ce514bd.chunk.js.map": "/specroll/static/js/931.1ce514bd.chunk.js.map",
+    "903.20953afa.chunk.js.map": "/specroll/static/js/903.20953afa.chunk.js.map",
+    "309.4d2c3804.chunk.js.map": "/specroll/static/js/309.4d2c3804.chunk.js.map",
+    "667.e3f3595a.chunk.js.map": "/specroll/static/js/667.e3f3595a.chunk.js.map",
+    "57.e6012b0e.chunk.js.map": "/specroll/static/js/57.e6012b0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6def87a0.css",
+    "static/js/main.c1c9d2b7.js"
+  ]
+}
