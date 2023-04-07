@@ -14,7 +14,7 @@ const Services = lazy(() => import("./pages/services/Services"));
 export default function App() {
   return (
     <div className={css.wrapper}>
-      <BrowserRouter>
+      <BrowserRouter basename="/specroll">
         <Header />
         <Suspense fallback={<div>Wczytuje...</div>}>
           <Routes>
