@@ -26,14 +26,16 @@ export default function WhyUs() {
   const yearsOfExperience = currentYear - 1991;
 
   return (
-    <div className={css.container}>
+    <div className={css.wrapper}>
       <h2 className={css.title}>Dlaczego my?</h2>
-      <CountUpCard start={0} end={yearsOfExperience}>
-        Lata doświadczenia
-      </CountUpCard>
-      <CountUpCard start={0} end={10} prefix="Ponad " suffix=" tysięcy">
-        Zadowolonych klientów
-      </CountUpCard>
+      <div className={css.container}>
+        <CountUpCard start={0} end={yearsOfExperience}>
+          Lata doświadczenia
+        </CountUpCard>
+        <CountUpCard start={0} end={10} prefix="Ponad " suffix=" tysięcy">
+          Zadowolonych klientów
+        </CountUpCard>
+      </div>
     </div>
   );
 }

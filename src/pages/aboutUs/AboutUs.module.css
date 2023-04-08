@@ -1,0 +1,34 @@
+.container {
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.container h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.container h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.container p {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+
+.container ul {
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+.container li {
+  margin-bottom: 0.5em;
+  list-style-type: disc;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--primaryColor);
+}

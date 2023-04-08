@@ -10,6 +10,8 @@
   font-size: 1.1em;
   font-weight: 700;
   margin: 1.2em;
+
+  transition: all ease-in 100ms;
 }
 
 .link:hover {

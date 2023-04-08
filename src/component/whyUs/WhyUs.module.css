@@ -1,7 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .title {
   text-align: center;
   font-size: 1.6em;
-  margin-block: 0.6em;
+  margin-block: 1.6em 0;
   color: #333;
   font-weight: bold;
 }
@@ -21,9 +27,11 @@
   align-items: center;
   justify-content: center;
   padding: 1.5em;
+  width: 100%;
   background-color: white;
+  border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin: 1em;
 }
 
@@ -37,4 +45,16 @@
   font-size: 1.1em;
   color: #666;
   text-align: center;
+}
+@media (min-width: 993px) {
+  .title {
+    font-size: 2em;
+    margin-block: 2em 0;
+  }
+  .container {
+    flex-direction: row;
+  }
+  .card {
+    max-width: 400px;
+  }
 }

@@ -36,16 +36,18 @@ export default function Process() {
   const animationDirections = ["left", "right", "left"];
 
   return (
-    <div className={css.container}>
+    <div className={css.wrapper}>
       <h2 className={css.title}>Proces</h2>
-      {data.map((item, index) => (
-        <Card
-          key={item.id}
-          header={item.header}
-          description={item.description}
-          animationDirection={animationDirections[index]}
-        />
-      ))}
+      <div className={css.container}>
+        {data.map((item, index) => (
+          <Card
+            key={item.id}
+            header={item.header}
+            description={item.description}
+            animationDirection={animationDirections[index]}
+          />
+        ))}
+      </div>
     </div>
   );
 }

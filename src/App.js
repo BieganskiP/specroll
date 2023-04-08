@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Header from "./component/header/Header";
+import Footer from "./component/footer/Footer";
 import SlideInMenu from "./component/slideInMenu/SlideInMenu";
 import Modal from "./component/modal/Modal";
 import css from "./assets/App.module.css";
@@ -14,7 +15,7 @@ const Services = lazy(() => import("./pages/services/Services"));
 export default function App() {
   return (
     <div className={css.wrapper}>
-      <BrowserRouter basename="/specroll">
+      <BrowserRouter>
         <Header />
         <Suspense fallback={<div>Wczytuje...</div>}>
           <Routes>
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/services" element={<Services />} />
           </Routes>
         </Suspense>
+        <Footer />
         <SlideInMenu />
         <Modal />
       </BrowserRouter>
