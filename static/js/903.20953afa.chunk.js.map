@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/903.20953afa.chunk.js","mappings":"yKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,WACd,C","sources":["pages/aboutUs/AboutUs.js"],"sourcesContent":["export default function AboutUs() {\r\n  return <div>AboutUs</div>;\r\n}\r\n"],"names":["AboutUs","_jsx","children"],"sourceRoot":""}
