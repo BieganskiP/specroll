@@ -1,13 +1,13 @@
 import React from "react";
 import css from "./AboutUs.module.css";
 
-const AboutUs = () => {
+export default function AboutUs() {
   return (
     <div className={css.wrapper}>
       <div className={css.divider}></div>
       <div className={css.container}>
-        <h1>O nas</h1>
-        <h2>Nasza firma</h2>
+        <h2>O nas</h2>
+        <h3>Nasza firma</h3>
         <p>
           SPECROLL, założona w 1991 roku, to doświadczona firma specjalizująca
           się w osłonach okiennych i bramach garażowych. Przez ponad 30 lat
@@ -16,7 +16,7 @@ const AboutUs = () => {
           bezpiecznych i estetycznych przestrzeni.
         </p>
 
-        <h2>Oferta</h2>
+        <h3>Oferta</h3>
         <p>Nasza oferta:</p>
         <ul>
           <li>Rolety zewnętrzne</li>
@@ -27,7 +27,7 @@ const AboutUs = () => {
           <li>Markizy</li>
           <li>Moskitiery</li>
         </ul>
-        <h2>Realizacja zamówienia</h2>
+        <h3>Realizacja zamówienia</h3>
         <p>
           Dbamy o każdy etap realizacji zamówienia - od doradztwa, przez
           bezpłatny pomiar i wycenę, aż do montażu i serwisowania.
@@ -41,6 +41,4 @@ const AboutUs = () => {
       </div>
     </div>
   );
-};
-
-export default AboutUs;
+}

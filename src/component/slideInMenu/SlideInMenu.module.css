@@ -18,9 +18,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 3em;
 }
-
 .open {
   transform: translateY(0);
   height: 100%;

@@ -1,7 +1,7 @@
 {
   "name": "specroll-v5",
   "version": "0.1.0",
-  "homepage": "https://bieganskip.github.io/specroll/",
+  "homepage": "https://specroll.pl",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",

@@ -1,5 +1,7 @@
-.footer {
+.wrapper {
   background-color: var(--secondaryColor);
+}
+.container {
   color: #fff;
   padding: 1rem;
   display: flex;
@@ -8,19 +10,19 @@
   justify-content: center;
 }
 
-.footerItem {
+.item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   padding: 0.6em;
 }
 
-.footerCompanyName {
+.logo {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 900;
 }
 
-.footerLink {
+.link {
   color: inherit;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -29,6 +31,24 @@
   font-weight: 500;
 }
 
-.footerLink:hover {
+.link:hover {
   text-decoration: underline;
+}
+
+/* Media query for tablet devices */
+@media screen and (min-width: 768px) {
+  .container {
+    margin-inline: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+/* Media query for desktop devices */
+@media screen and (min-width: 1024px) {
+  .container {
+    justify-content: space-between;
+    max-width: 1280px;
+  }
 }

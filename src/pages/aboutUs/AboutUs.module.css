@@ -3,12 +3,12 @@
   padding: 2em;
 }
 
-.container h1 {
+.container h2 {
   font-size: 2em;
   margin-bottom: 1em;
 }
 
-.container h2 {
+.container h3 {
   font-size: 1.5em;
   margin-bottom: 0.5em;
 }
@@ -31,4 +31,9 @@
   width: 100%;
   height: 1px;
   background-color: var(--primaryColor);
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1280px;
+  }
 }
