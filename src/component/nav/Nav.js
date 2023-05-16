@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 
 export default function Nav() {
-  const isDesktop = useMediaQuery({ maxWidth: 993 });
+  const isDesktop = useMediaQuery({ maxWidth: 768 });
   const location = useLocation();
 
   if (isDesktop) {

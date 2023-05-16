@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useMediaQuery } from "react-responsive";
 import css from "./Hamburger.module.css";
 import { useSelector, useDispatch } from "react-redux";

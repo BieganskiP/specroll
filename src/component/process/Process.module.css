@@ -21,11 +21,15 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .icon {
-  width: 100px;
-  height: 100px;
+  font-size: 3rem;
 }
 
 .header {

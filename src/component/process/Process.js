@@ -3,7 +3,14 @@ import { useInView } from "react-intersection-observer";
 import css from "./Process.module.css";
 import data from "../../staticData/process.json";
 
-function Card({ header, description, animationDirection }) {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTape,
+  faTags,
+  faScrewdriverWrench,
+} from "@fortawesome/free-solid-svg-icons";
+
+function Card({ header, description, animationDirection, icon }) {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -26,6 +33,7 @@ function Card({ header, description, animationDirection }) {
 
   return (
     <animated.div ref={ref} className={css.card} style={animation}>
+      <FontAwesomeIcon icon={icon} className={css.icon} />
       <h3 className={css.header}>{header}</h3>
       <p className={css.description}>{description}</p>
     </animated.div>
@@ -34,6 +42,7 @@ function Card({ header, description, animationDirection }) {
 
 export default function Process() {
   const animationDirections = ["left", "right", "left"];
+  const icons = [faTape, faTags, faScrewdriverWrench];
 
   return (
     <div className={css.wrapper}>
@@ -45,6 +54,7 @@ export default function Process() {
             header={item.header}
             description={item.description}
             animationDirection={animationDirections[index]}
+            icon={icons[index]}
           />
         ))}
       </div>
